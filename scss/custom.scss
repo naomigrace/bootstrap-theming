@@ -1,0 +1,43 @@
+// UVA BRAND HEXs
+$jefferson-blue:        #232D4B;
+$secondary-web-blue:    #141E3C;
+$secondary-web-orange:  #EB5F0C;
+$text-gray:             #666666;
+$emergency-red:         #DF1E43;
+
+// Your variable overrides here
+// COLORS
+$blue:        $jefferson-blue;
+$red:         $emergency-red;
+$orange:      $secondary-web-orange;
+$warning:     $orange;
+$blue-light:  lighten($jefferson-blue, 50%);
+
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Merriweather:700');
+$font-family-sans-serif:    'Open Sans';
+$headings-font-family:      'Merriweather';
+
+// NAVIGATION
+$navbar-nav-link-padding-x:         1rem;
+$navbar-padding-y:                  1rem;
+$dropdown-min-width:                16rem;
+$dropdown-padding-y:                1rem;
+$dropdown-item-padding-y:           .50rem;
+$dropdown-item-padding-x:           2rem;
+
+// JUMBOTRON
+$jumbotron-padding:                 3rem;
+
+// GLOBAL OPTIONS
+$enable-rounded:            false;
+$enable-shadows:            true;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+// Bootstrap and its default variables
+@import "bootstrap";
